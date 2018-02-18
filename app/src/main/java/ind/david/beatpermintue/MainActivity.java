@@ -13,9 +13,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
         /* הקוד מתחת יגרום לזה שהמסך לא יתהפך .. לרשום אותו במחברת.*/
         this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-        setContentView(R.layout.activity_login_page);
     }
 
 
@@ -33,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+    /** todo metoda shel zaian ahi */
 
     public void btnConvert(View btnconvert) {
 

@@ -10,22 +10,32 @@
         android:screenOrientation="portrait"
         android:supportsRtl="false"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+
+        <!--
+        todo the first activity which will be launched in the app is written here.
+        Notice we put the flag "android.intent.action.MAIN" which means that we want this activity
+        to run on app start.
+        In general, it's good practice to remember that MainActivity should always be the first
+        activity on your apps but for the sake of this project it's fine to leave it like so.
+        -->
+        <activity android:name=".LoginPage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+        <!--
+        todo note we will also write all of the other activities, we will use in the project, here.
+        That's why we also written MainActivity here
+         -->
+        <activity android:name=".MainActivity"/>
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name=".LoginPage" />
-        <activity android:name=".page2" />
-        <activity android:name="test2.Main2Activity" />
-        <activity android:name="test2.Main3Activity" />
     </application>
 
 </manifest>

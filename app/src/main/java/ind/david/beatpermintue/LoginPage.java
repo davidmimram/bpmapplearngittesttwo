@@ -9,11 +9,22 @@ public class LoginPage extends AppCompatActivity {
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_login_page);
 
 
     }
 
+
+    /**
+     * todo by calling this method the onClick already been clicked. No need to create an onClick where
+     * we already recognized onClick
+     */
+    public void signmein(View view) {
+        Intent intent = new Intent(LoginPage.this, MainActivity.class);
+        startActivity(intent);
+    }
+
+    /* old code
     public void signmein(View view) {
         findViewById(R.id.signinbtn).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -23,6 +34,8 @@ public class LoginPage extends AppCompatActivity {
             }
         });
     }
+
+    */
 }
 //}
 
