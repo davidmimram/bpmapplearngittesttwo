@@ -1,0 +1,42 @@
+<resources>
+
+
+    <string name="app_name">beatpermintue</string>
+
+
+    <!--noets-->
+    <string name="n1_1">1/1</string>
+    <string name="n1_2">1/2</string>
+    <string name="n1_4">1/4</string>
+    <string name="n1_8">1/8</string>
+    <string name="n1_16">1/16</string>
+    <string name="n1_32">1/32</string>
+    <string name="n1_64">1/64</string>
+    <string name="n1_128">1/128</string>
+
+
+    <!--triplet-->
+    <string name="t1_1">1/1t</string>
+    <string name="t1_2">1/2t</string>
+    <string name="t1_4">1/4t</string>
+    <string name="t1_8">1/8t</string>
+    <string name="t1_16">1/16t</string>
+    <string name="t1_32">1/32t</string>
+    <string name="t1_64">1/64t</string>
+
+
+    <!--Dotted:-->
+
+    <string name="d1_1">1/1d</string>
+    <string name="d1_2">1/2d</string>
+    <string name="d1_4">1/4d</string>
+    <string name="d1_8">1/8d</string>
+    <string name="d1_16">1/16d</string>
+    <string name="d1_32">1/32d</string>
+    <string name="d1_64">1/64d</string>
+    <string name="_1">1</string>
+    <string name="button">Button</string>
+    <string name="text_submit">SUBMIT</string>
+
+
+</resources>
