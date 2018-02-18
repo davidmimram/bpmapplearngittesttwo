@@ -9,6 +9,8 @@ public class LoginPage extends AppCompatActivity {
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //todo: setContentView changed to R.layout.activity_login_page
+
         setContentView(R.layout.activity_login_page);
 
 

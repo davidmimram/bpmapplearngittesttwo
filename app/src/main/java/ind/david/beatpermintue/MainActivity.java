@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //todo: setContentView line moved up in the method. and change to R.layout.activity_main
         setContentView(R.layout.activity_main);
         /* הקוד מתחת יגרום לזה שהמסך לא יתהפך .. לרשום אותו במחברת.*/
         this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
