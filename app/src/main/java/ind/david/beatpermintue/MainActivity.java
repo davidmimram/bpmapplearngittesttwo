@@ -71,6 +71,7 @@ public class MainActivity extends AppCompatActivity {
                     Double n16 = 60000 / converstringtodoubble / 4;
                     Double n32 = 60000 / converstringtodoubble / 8;
                     Double n64 = 60000 / converstringtodoubble / 16;
+                    Double n128 = 60000 / converstringtodoubble / 32;
 
                     String ms = " ms";
 
