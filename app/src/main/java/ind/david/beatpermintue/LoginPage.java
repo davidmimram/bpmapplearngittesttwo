@@ -22,8 +22,12 @@ public class LoginPage extends AppCompatActivity {
      * we already recognized onClick
      */
     public void signmein(View view) {
-        Intent intent = new Intent(LoginPage.this, MainActivity.class);
-        startActivity(intent);
+        try {
+            Intent intent = new Intent(LoginPage.this, MainActivity.class);
+            startActivity(intent);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     /* old code
